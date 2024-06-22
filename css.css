@@ -107,3 +107,42 @@ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans 
     transform: translate(-350%,70%);
     border-radius: 60px;
 }
+
+@media (max-width:600px){
+
+    .cin img {
+        width: 150px;
+        height: auto;
+transform: translate(230px,70%);
+    }
+    .cin a img{
+        width: 20px;
+        height: 20px;
+        transform: translate(-550%,2200%);
+    }
+    nav ul li {
+        transform: translate(0%,290%);
+  display: none;
+  padding: 6px 2px
+
+    }
+    .cin h1 {
+        font-size: 22px;
+        transform: translate(-5%,600%);
+    }
+
+    .cin h3{
+        font-size:17px ;
+    }
+    .cin h4{
+        transform: translate(-1%,850%);
+    }
+    .aa{
+        transform: translate(0%,-300000%);
+   
+    }
+nav{
+    transform: translate(0%,80%);
+}
+
+}
